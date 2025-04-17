@@ -1,0 +1,60 @@
+<h2 class="heading">Liste des Voyageurs</h2>
+<div class="search-bar">
+  <input type="text" placeholder="Entrez le numéro de passeport"
+         [(ngModel)]="numeroPassportRecherche" />
+  <button (click)="rechercherVoyageur()">Rechercher</button>
+</div>
+
+
+<!-- Tableau des voyageurs -->
+<table *ngIf="voyageurs.length > 0; else noData" class="voyageur-table">
+  <thead>
+    <tr>
+      <th>Nom</th>
+      <th>Prénom</th>
+      <th>Numéro de Passeport</th>
+      <th>Date de Naissance</th>
+      <th>Date d'Expiration du Passeport</th>
+      <th>Date Prév. du Voyage</th>
+      <th>Poste Sortie Prév.</th>
+      <th>Montant Droit de Change</th>
+      <th>NIN</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let v of voyageurs">
+      <td>{{ v.nom }}</td>
+      <td>{{ v.prenom }}</td>
+      <td>{{ v.numeroPassport }}</td>
+      <td>{{ v.dateNaissance }}</td>
+      <td>{{ v.dateExpirationPassport }}</td>
+      <td>{{ v.datePrevuVoyage }}</td>
+      <td>{{ v.posteSortiePrevu }}</td>
+      <td>{{ v.montantDroitChange | currency:'EUR' }}</td>
+      <td>{{ v.nin }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Message si aucune donnée n'est trouvée -->
+<ng-template #noData>
+  <p>Aucun voyageur trouvé.</p>
+</ng-template>
+<div *ngIf="voyageurTrouve">
+  <h3>Voyageur trouvé :</h3>
+  <ul>
+    <li><strong>Nom :</strong> {{ voyageurTrouve.nom }}</li>
+    <li><strong>Prénom :</strong> {{ voyageurTrouve.prenom }}</li>
+    <li><strong>Numéro de Passeport :</strong> {{ voyageurTrouve.numeroPassport }}</li>
+    <li><strong>Date de Naissance :</strong> {{ voyageurTrouve.dateNaissance }}</li>
+    <li><strong>Date d'Expiration :</strong> {{ voyageurTrouve.dateExpirationPassport }}</li>
+    <li><strong>Date Prév. Voyage :</strong> {{ voyageurTrouve.datePrevuVoyage }}</li>
+    <li><strong>Poste Sortie Prév. :</strong> {{ voyageurTrouve.posteSortiePrevu }}</li>
+    <li><strong>Montant :</strong> {{ voyageurTrouve.montantDroitChange | currency:'EUR' }}</li>
+    <li><strong>NIN :</strong> {{ voyageurTrouve.nin }}</li>
+  </ul>
+</div>
+
+<div *ngIf="rechercheEffectuee && !voyageurTrouve">
+  <p style="color: red;">Aucun voyageur trouvé pour ce numéro de passeport.</p>
+</div>

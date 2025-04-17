@@ -1,0 +1,63 @@
+/* Styles pour la page */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* En-tête */
+  .heading {
+    text-align: center;
+    color: #2d3e50;
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+  
+  /* Tableau des voyageurs */
+  .voyageur-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .voyageur-table th, .voyageur-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .voyageur-table th {
+    background-color: #007bff;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .voyageur-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .voyageur-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Message "Aucun voyageur trouvé" */
+  ng-template p {
+    text-align: center;
+    color: #6c757d;
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    padding: 6px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  

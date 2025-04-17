@@ -1,0 +1,125 @@
+{
+    "voyageursInfos": [
+      {
+        "id": 1,
+        "numeroPassport": "DZ100001",
+        "nom": "Ali",
+        "prenom": "Amine",
+        "dateNaissance": "1990-01-01",
+        "dateExpirationPassport": "2030-01-01",
+        "datePrevuVoyage": "2025-07-01",
+        "posteSortiePrevu": "Alger Aéroport",
+        "montantDroitChange": 200,
+        "nin": "123456789012"
+      },
+      {
+        "id": 2,
+        "numeroPassport": "DZ100002",
+        "nom": "Brahim",
+        "prenom": "Yacine",
+        "dateNaissance": "1985-03-15",
+        "dateExpirationPassport": "2028-11-20",
+        "datePrevuVoyage": "2025-08-10",
+        "posteSortiePrevu": "Oran Port",
+        "montantDroitChange": 150,
+        "nin": "123456789013"
+      },
+      {
+        "id": 3,
+        "numeroPassport": "DZ100003",
+        "nom": "Zahra",
+        "prenom": "Lina",
+        "dateNaissance": "1995-06-12",
+        "dateExpirationPassport": "2029-04-10",
+        "datePrevuVoyage": "2025-09-15",
+        "posteSortiePrevu": "Annaba Aéroport",
+        "montantDroitChange": 300,
+        "nin": "123456789014"
+      },
+      {
+        "id": 4,
+        "numeroPassport": "DZ100004",
+        "nom": "Karim",
+        "prenom": "Nour",
+        "dateNaissance": "1992-07-25",
+        "dateExpirationPassport": "2031-03-01",
+        "datePrevuVoyage": "2025-06-30",
+        "posteSortiePrevu": "Tlemcen Frontière",
+        "montantDroitChange": 250,
+        "nin": "123456789015"
+      },
+      {
+        "id": 5,
+        "numeroPassport": "DZ100005",
+        "nom": "Fatima",
+        "prenom": "Imen",
+        "dateNaissance": "1988-12-05",
+        "dateExpirationPassport": "2027-08-15",
+        "datePrevuVoyage": "2025-12-24",
+        "posteSortiePrevu": "Bejaia Port",
+        "montantDroitChange": 180,
+        "nin": "123456789016"
+      },
+      {
+        "id": 6,
+        "numeroPassport": "DZ100006",
+        "nom": "Sami",
+        "prenom": "Rachid",
+        "dateNaissance": "1999-09-10",
+        "dateExpirationPassport": "2032-01-01",
+        "datePrevuVoyage": "2025-11-10",
+        "posteSortiePrevu": "Constantine Aéroport",
+        "montantDroitChange": 220,
+        "nin": "123456789017"
+      },
+      {
+        "id": 7,
+        "numeroPassport": "DZ100007",
+        "nom": "Lina",
+        "prenom": "Meriem",
+        "dateNaissance": "1994-05-30",
+        "dateExpirationPassport": "2031-06-12",
+        "datePrevuVoyage": "2025-05-20",
+        "posteSortiePrevu": "Tizi Ouzou",
+        "montantDroitChange": 270,
+        "nin": "123456789018"
+      },
+      {
+        "id": 8,
+        "numeroPassport": "DZ100008",
+        "nom": "Nabil",
+        "prenom": "Hichem",
+        "dateNaissance": "1987-02-22",
+        "dateExpirationPassport": "2029-09-30",
+        "datePrevuVoyage": "2025-10-01",
+        "posteSortiePrevu": "Ghardaia Aéroport",
+        "montantDroitChange": 190,
+        "nin": "123456789019"
+      },
+      {
+        "id": 9,
+        "numeroPassport": "DZ100009",
+        "nom": "Salima",
+        "prenom": "Yasmine",
+        "dateNaissance": "1991-11-17",
+        "dateExpirationPassport": "2030-12-20",
+        "datePrevuVoyage": "2025-07-14",
+        "posteSortiePrevu": "Skikda Port",
+        "montantDroitChange": 210,
+        "nin": "123456789020"
+      },
+      {
+        "id": 10,
+        "numeroPassport": "DZ100010",
+        "nom": "Ahmed",
+        "prenom": "Mohamed",
+        "dateNaissance": "1983-04-08",
+        "dateExpirationPassport": "2028-02-18",
+        "datePrevuVoyage": "2025-08-05",
+        "posteSortiePrevu": "El Oued",
+        "montantDroitChange": 160,
+        "nin": "123456789021"
+      }
+    ]
+  }
+  
